@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html style="background-color:#201e1e">
+    <head>
+        <title >EXCEED UNIVERSITY</title>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+
+            .split 
+            {
+                height: 100%;
+                width: 65%;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                overflow-x: auto;
+                padding-top: 20px;
+            }
+
+            .left 
+            {
+                left: 0;
+                background-color: #111;
+            }
+
+            .right
+            {
+                right: 0; 
+                background-color: black;
+            }
+
+            .centered 
+            {
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: left;
+            }
+
+
+            </style>
+    </head>
+
+<body>
+    <div class="split right">
+        <div class="centered" style="width: 0.5px; height: 900px;">
+            <h1 style="color:rgb(255, 0, 106); text-align: center; font-size: 40px;">Profile...</h1>
+            <img src="profile.jpg" alt="profile" style="width:200px">
+        </div>
+    </div>
+</body>
+
+<body>
+    <div class="split left">
+        <div class="centered">
+            <h1 style="height:53px; color:rgb(255, 0, 106); text-align: center; font-size: 50px;">EXCEED UNIVERSITY
+                <img src="file:///C:/Users/prama/web_tech/image.jpg" alt="image" width="75" height="40">
+            </h1>
+            <p style="color:white; font-size: 20px;text-align: center;"> Exceed your learning !</p>
+            <p style="width : 710px; color:rgb(0, 217, 255); font-size: 20px;">
+                -> The main aim of the university is to make the student a diligent, industrious, self-reliant, resourceful, honest and truthful individual. <br>
+                -> The university supports various technical and co-curricular clubs. <br>
+                -> The University provides mooc platform for students to get exposed to the industry environment <br>
+            </p>
+    
+            <button id="course" type="button" style="background-color:rgb(0, 217, 255); 
+                border: none;
+                color: black;
+                padding: 30px 30px;
+                height: 135px;
+                width: 510px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 60px;">Courses</button>
+                
+            <br>
+
+            <script type="text/javascript">
+                document.getElementById("course").onclick = function ()
+                {
+                    location.href = "file:///C:/Users/prama/web_tech/courses.html";
+                };
+            </script>
+
+            <br>
+
+            <button id="videos" type="button" style="     background-color:rgb(0, 217, 255); 
+            border: none;
+            color: black;
+            padding: 30px 30px;
+            text-align: center;
+            height: 135px;
+            width: 510px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 60px;">Videos</button>
+            
+            <br>
+            
+            <script type="text/javascript">
+                document.getElementById("videos").onclick = function ()
+                {
+                    location.href = "file:///C:/Users/prama/web_tech/vidoes.html";
+                };
+            </script>
+            
+            <br>
+             
+            <button type="button" style="     background-color:rgb(0, 217, 255); 
+            border: none;
+            color: black;
+            padding: 30px 30px;
+            height: 135px;
+            width: 510px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 60px;">Results</button> 
+            
+            <br>
+            
+            <br>
+            
+            <button id="announc" type="button" style="     background-color:rgb(0, 217, 255); 
+            border: none;
+            color: black;
+            padding: 30px 30px;
+            height: 135px;
+            width: 510px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 60px;">Announcements</button> 
+            
+            <br>
+
+            <script type="text/javascript">
+                document.getElementById("announc").onclick = function ()
+                {
+                    location.href = "file:///C:/Users/prama/web_tech/announc.html";
+                };
+            </script>
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+
